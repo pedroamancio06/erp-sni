@@ -1,0 +1,59 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    background-color: var(--background-header-dashboard);
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 85%;
+    margin-top: 2rem;
+    border: 2px solid var(--color-text-secundary);
+    font-size: 1.5rem;
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: var(--background-nav); /* Cor de fundo do cabeçalho */
+    color: var(--background-header-dashboard); /* Cor do texto do cabeçalho */
+    text-align: left;
+}
+
+.table th, .table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--color-text-secundary); /* Linhas entre as células */
+}
+
+.table th {
+    font-weight: bold; /* Estilo de fonte para o cabeçalho */
+    font-size: 1.25rem;
+}
+
+.table tbody tr:hover {
+    background-color: var(--background-tr);
+    color: var(--background-header-dashboard); /* Cor ao passar o mouse nas linhas da tabela */
+}
+
+.table td {
+    padding: 0.75rem 1rem;
+}
+
+.containerNull td {
+    text-align: center;
+}
+
+.btnTable {
+    padding: 0.75rem 1rem;
+    border: none;
+    background-color: var(--background-nav);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: .5rem;
+}
+
+.tableLine {
+    cursor: pointer;
+}

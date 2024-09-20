@@ -1,0 +1,48 @@
+.container {
+    background-color: var(--background-nav);
+    color: var(--color-links);
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    padding: .5rem 1.5rem;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+}
+
+.container > h1 {
+    font-size: 2rem;
+    margin: 1rem 1.5rem;
+}
+  
+.list,
+.manage {
+    display: flex;
+    gap: 1.5rem;
+}
+  
+.list li,
+.manage li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.list li a,
+.manage li a {
+    text-decoration: none;
+    color: var(--color-links);
+    font-size: 18px;
+    padding: .2rem;
+    transition: all .1s ease-in-out;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    transition: all .3s ease-in-out;
+}
+  
+.container a:hover {
+    color: var(--color-links_hover);
+    border-bottom: 1px solid var(--color-links_hover);
+}
+  
